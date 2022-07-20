@@ -98,6 +98,13 @@ div, span {
 	z-index: 10;
 	color: white;
 }
+.right-email {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+}
 /* About Section */
 
 /* Projects Section */
