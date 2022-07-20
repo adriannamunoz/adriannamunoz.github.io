@@ -88,7 +88,7 @@ div, span {
 	outline: none;
 	transition: .5s ease;
 }
-.btn:hover {
+.hire-btn:hover {
 	cursor: pointer;
 	background-color: white;
 	color: black;
