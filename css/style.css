@@ -119,6 +119,7 @@ div, span {
 	line-height: 18px;
 	letter-spacing: 0.1em;
 	writing-mode: vertical rl;
+	text-orientation: mixed;
 }
 a {
 	display: inline-block;
@@ -126,7 +127,6 @@ a {
 	text-decoration-skip-ink: auto;
 	color: inherit;
 	position: relative;
-	transition-timing-function: all 0.25scubic-bezier(0.65, 0.05, 0.13, 0.98);
 }
 /* About Section */
 
