@@ -11,7 +11,7 @@ body {
 .header-section {
 	width: 100%;
 }
-div, span {
+a, div, html, img, p, section, span, ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -134,10 +134,14 @@ a {
 	align-items: center;
 }
 img {
+	max-width: 100%;
 	height: auto;
 	width: 456px;
 	border-radius: 8px;
-	max-width: 100%;
+}
+.about-container .about-text {
+	max-width: 560px;
+	overflow: hidden;
 }
 /* Projects Section */
 
