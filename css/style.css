@@ -112,7 +112,7 @@ div, span {
 	font-size: 12px;
 	line-height: 18px;
 	letter-spacing: 0.1em;
-	-webkit-writing-mode: vertical rl;
+	writing-mode: vertical rl;
 }
 a {
 	display: inline-block;
