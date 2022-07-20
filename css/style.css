@@ -1,0 +1,144 @@
+body {
+	background-color: #457B9D;
+}
+
+.header-section {
+	width: 100%;
+}
+div, span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.navbar {
+	display: flex;
+	justify-content: center;
+	background-color: #C0BCB5;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+.navbar ul {
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+.navbar ul li {
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+.navbar ul li a:hover {
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
+}
+
+/* Home Section */
+#home {
+	display: flex;
+	flex-direction: column;
+	background-color: #457B9D;
+	height: 840px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#home::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid white; */
+	align-items: center;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+}
+.headings {
+	font-family: century;
+	font-size: 3rem;
+	text-align: center;
+	margin: 40px 0px;
+}
+.btn {
+	padding: 10px 35px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	outline: none;
+	transition: .5s ease;
+}
+.btn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	font-weight: bold;
+}
+/* About Section */
+
+/* Projects Section */
+
+/* Contact Section */
+.contact-section {
+	margin-bottom: 25px;
+}
+.container {
+	max-width: 1200px;
+}
+@media (min-width: 1200px)
+fieldset {
+	padding: 30px;
+}
+.contact-flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 15px;
+}
+#message {
+	height: 200px;
+	width: 500px;
+}
+label {
+	padding-bottom: 8px;
+}
+.contact-form input, .contact-form textarea {
+	background-color: lightgray;
+	box-shadow: 0 0.8px 0.4px rgb(51, 51, 51 / 25%);
+	border-radius: 3px;
+	display: block;
+	width: 100%;
+	border: 1px solid #fcfcfc;
+}
+.contact-form input {
+	height: 20px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 300px;
+	color: white;
+}
