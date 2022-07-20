@@ -80,7 +80,7 @@ div, span {
 	text-align: center;
 	margin: 40px 0px;
 }
-.hire-btn {
+.btn {
 	padding: 10px 35px;
 	background-color: transparent;
 	border: 1px solid white;
@@ -88,7 +88,7 @@ div, span {
 	outline: none;
 	transition: .5s ease;
 }
-.hire-btn:hover {
+.btn:hover {
 	cursor: pointer;
 	background-color: white;
 	color: black;
@@ -129,7 +129,10 @@ a {
 	position: relative;
 }
 /* About Section */
-
+.header {
+	display: flex;
+	align-items: center;
+}
 /* Projects Section */
 
 /* Contact Section */
