@@ -89,6 +89,15 @@ div, span {
 	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 	font-weight: bold;
 }
+.email-element {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: auto;
+	right: 40px;
+	z-index: 10;
+	color: white;
+}
 /* About Section */
 
 /* Projects Section */
