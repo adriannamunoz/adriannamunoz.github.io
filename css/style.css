@@ -105,6 +105,16 @@ div, span {
 	align-items: center;
 	position: relative;
 }
+.right-email a {
+	margin: 20px auto;
+	padding: 10px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	-webkit-writing-mode: vertical rl:
+	writing-mode: vertical-rl;
+}
 /* About Section */
 
 /* Projects Section */
