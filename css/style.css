@@ -247,7 +247,11 @@ footer {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	line-height: 4px;
+	line-height: 15px;
 	color: white;
 	align-items: center;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 16px;
 }
