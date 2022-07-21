@@ -7,6 +7,10 @@ body {
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased
 }
+header {
+	min-height: 95vh;
+	margin-bottom: 300px;
+}
 
 .header-section {
 	width: 100%;
