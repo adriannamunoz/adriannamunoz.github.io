@@ -232,7 +232,15 @@ footer {
 	color: white;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 12px;
-	line-height: 3;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: auto;
+	min-height: 70px;
+	padding: 15px;
+	text-align: center;
 }
 .footer-text {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
