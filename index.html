@@ -14,11 +14,11 @@
 		<div class="container">
 			<nav>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
 					<i class="fas fa-times" onclick="closemenu()"></i>
 				</ul>
 				<i class="fas fa-bars" onclick="openmenu()"></i>
@@ -134,9 +134,9 @@
 				<a href="img/adriannamunozresume2022.docx" download class="btn btn2">Resume</a>
 			</div>
 			<div class="contact-right">
-				<form>
+				<form name="submit-to-google-sheet">
 					<input type="text" name="Name" placeholder="Your Name" required>
-					<input type="email" name="email" placeholder="Your Email" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
 					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
 					<button type="submit" class="btn btn2">Submit</button>
 				</form>
@@ -175,6 +175,18 @@
 			sidemenu.style.right = "-200px";
 		}
 	</script>
+	
+	<script>
+		const scriptURL = '<https://script.google.com/macros/s/AKfycbyU_c6-wJ4UIIeC8aQ72lqwBFeFw8fQBRjC_kzdGIX0PyqcUCv0lE57yUYApTU6gShTig/exec>'
+		const form = document.forms['submit-to-google-sheet']
+	  
+		form.addEventListener('submit', e => {
+		  e.preventDefault()
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+		})
+	  </script>
 </body>
 	
 	
