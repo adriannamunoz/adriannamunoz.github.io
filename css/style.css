@@ -62,6 +62,16 @@ nav ul li a:hover::after {
 .header-text h1 span {
 	color: #457B9D;
 }
+/* About section */
+#about {
+	padding: 80px 0;
+	color: white;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 /* header {
 	min-height: 95vh;
 	margin-bottom: 300px;
