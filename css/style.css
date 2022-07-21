@@ -224,3 +224,22 @@ label {
 #myBtn:hover {
 	background-color: #555;
 }
+footer {
+	display: flex;
+	align-items: center;
+}
+.footer-container {
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 3;
+}
+.footer-text {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 4px;
+	color: white;
+	align-items: center;
+}
