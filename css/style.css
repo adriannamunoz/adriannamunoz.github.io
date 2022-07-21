@@ -59,6 +59,9 @@ nav ul li a:hover::after {
 	font-size: 60px;
 	margin-top: 20px;
 }
+.header-text h1 span {
+	color: #457B9D;
+}
 /* header {
 	min-height: 95vh;
 	margin-bottom: 300px;
