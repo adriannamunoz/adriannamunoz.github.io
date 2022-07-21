@@ -95,6 +95,15 @@ a, div, html, img, p, section, span, ul {
 	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 	font-weight: bold;
 }
+.social-element {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: 40px;
+	right: auto;
+	z-index: 10;
+	color: white;
+}
 .email-element {
 	width: 40px;
 	position: fixed;
@@ -103,6 +112,7 @@ a, div, html, img, p, section, span, ul {
 	right: 40px;
 	z-index: 10;
 	color: white;
+	transform: rotate(90deg);
 }
 .right-email {
 	display: flex;
