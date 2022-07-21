@@ -323,3 +323,8 @@ nav .fas{
 		font-size: 14px;
 	}
 }
+#msg {
+	color: white;
+	margin-top: -40px;
+	display: block;
+}
