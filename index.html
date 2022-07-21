@@ -19,9 +19,9 @@
 					<li><a href="#">Services</a></li>
 					<li><a href="#">Projects</a></li>
 					<li><a href="#">Contact</a></li>
-					<i class="fas fa-times"></i>
+					<i class="fas fa-times" onclick="closemenu()"></i>
 				</ul>
-				<i class="fas fa-bars"></i>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
 			</nav>
 			<div class="header-text">
 				<p>Web Developer</p>
@@ -160,6 +160,17 @@
 		}
 	</script>
 	
+	<script>
+		
+		var sidemenu = document.getElementById("sidemenu");
+
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+		function closemenu(){
+			sidemenu.style.right = "-200px";
+		}
+	</script>
 </body>
 	
 	
