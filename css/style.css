@@ -1,3 +1,10 @@
+html {
+	background-color: -webkit-linear-gradient(
+		to right,
+		#457B9D,
+		#C0BCB5
+	);
+}
 body {
 	color: white;
 	background-color: #457B9D;
